@@ -9,14 +9,14 @@ class Persona:
     genero=""
 
     def pedirDatos(self):
-        self.tipoDoc=input("Ingrese tipo de documento: \n")
-        self.documento=int(input("Ingrese tipo de documento: \n"))
-        self.nombre=input("Ingrese su nombre: \n")
-        self.apellido=input("Ingrese su apellido: \n")
-        self.peso=float(input("Ingrese su peso: \n"))
-        self.estatura=float(input("Ingrese su estatura: \n"))
-        self.edad=int(input("Ingrese su edad: \n"))
-        self.genero=input("Ingrese su genero: \n")
+        self.tipoDoc=input("Ingrese tipo de documento: ")
+        self.documento=int(input("Ingrese número de documento: "))
+        self.nombre=input("Ingrese su nombre: ")
+        self.apellido=input("Ingrese su apellido: ")
+        self.peso=float(input("Ingrese su peso: "))
+        self.estatura=float(input("Ingrese su estatura: "))
+        self.edad=int(input("Ingrese su edad: "))
+        self.genero=input("Ingrese su genero: ")
 
     def mostrarpersona(self):
         print("Sus datos registrados son: \nNombre y apellido: ",self.nombre,"",self.apellido,"\nTipo de documento: ",self.tipoDoc,"\nDocumento: ",self.documento,"\nPeso: ",self.peso,"\nEstatura: ",self.estatura," \nEdad: ",self.edad," \nGenero: ",self.genero)
